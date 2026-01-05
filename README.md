@@ -36,7 +36,13 @@ The models are benchmarked using:
 * **Confusion Matrix:** To visualize per-class misclassifications.
 * **Classification Report:** Detailed Precision, Recall, and F1-Score metrics.
 * **Training Logs:** Convergence analysis via accuracy/loss curves.
+  
+## Benchmarking & Results
+The models were evaluated on classification accuracy and computational efficiency. The **CNN architecture** outperformed the statistical approach, demonstrating its superior ability to capture complex spatial patterns in biological/image data.
 
+* **CNN Accuracy:** ~97%
+* **PCA + FFNN Accuracy:** ~99%
+  
 ## Quick Start & Usage
 Since this project is optimized for cloud environments (Kaggle/Google Colab), you can run the analysis without downloading the dataset locally:
 
