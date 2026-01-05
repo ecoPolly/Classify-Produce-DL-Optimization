@@ -25,7 +25,7 @@ A hybrid approach focused on latent space representation, mirroring workflows us
 * **Dimensionality Reduction:** Principal Component Analysis (PCA) to extract the most informative components from raw pixel data.
 * **Classification:** A Dense Neural Network (FFNN) trained on the reduced feature space.
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Data & OS:** `numpy`, `pandas`, `os`, `json`
 * **Deep Learning:** `tensorflow.keras`
 * **Machine Learning & Stats:** `sklearn` (PCA, StandardScaler, Metrics)
